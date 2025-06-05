@@ -9,7 +9,7 @@ clock  = time.Clock()
 # 定義(クラス・関数)
 
 # 準備(スプライト・マップ・変数)
-all_sprites = sprite.Group()
+alls = sprite.Group()
 {SPRITE_GROUPS}
 
 # メインループ
