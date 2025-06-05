@@ -22,7 +22,7 @@ while run:
         {EVENT_ACTIONS}
 
     # 更新
-    all_sprites.update()
+    alls.update()
 
     # 判定
     {COLLISIONS} 
@@ -30,7 +30,7 @@ while run:
 
     # 描画
     screen.fill({BG})
-    all_sprites.draw(screen)
+    alls.draw(screen)
     {UI_DRAW}  
     display.flip()
 
